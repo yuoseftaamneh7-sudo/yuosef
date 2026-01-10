@@ -792,11 +792,13 @@ button{
 
   .experience {
     padding: 80px 20px;
+        background: linear-gradient(54deg, #1b0033, #012d41);
   }
 
   .footer {
     padding: 40px 20px;
     text-align: center;
+        background: linear-gradient(128deg, #1b0033, #012d41);
   }
 
   .footer-container {
@@ -910,6 +912,8 @@ button{
   padding: 100px 8%;
   color: #fff;
   min-height: 80vh;
+        background: linear-gradient(54deg, #1b0033, #012d41);
+
 }
 
 .section-title {
@@ -951,11 +955,13 @@ button{
 
 
 .footer {
-  margin-top: 100px;
+  margin-top: 10px;
   padding: 60px 8% 20px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(20px);
   color: #fff;
+        background: linear-gradient(128deg, #1b0033, #012d41);
+
 }
 
 .footer-container {
