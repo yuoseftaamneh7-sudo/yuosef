@@ -792,7 +792,7 @@ button{
 
   .experience {
     padding: 80px 20px;
-        background: linear-gradient(54deg, #1b0033, #012d41);
+        background: linear-gradient(44deg, #1b0033, #012d41);
   }
 
   .footer {
@@ -1032,3 +1032,4 @@ button{
   transform: translateY(-5px);
   color: #27e0d6;
 }
+
