@@ -1169,3 +1169,40 @@ button{
 }
 
 
+
+
+@media (max-width: 1550px){
+   .t7t {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .txtt {
+    margin: 0;
+  }
+
+  .about {
+    margin: 0 auto 20px;
+  }
+
+  .about-my {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .skls {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .yuosef {
+    margin: 40px auto 0;
+    width: 260px;
+    height: auto;
+  }
+}
+
