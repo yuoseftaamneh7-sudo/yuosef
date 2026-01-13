@@ -483,3 +483,18 @@ toTop.addEventListener("click", () => {
   });
 });
 
+
+const skillBars = document.querySelectorAll(".progress-bar");
+
+const skillObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const bar = entry.target;
+      bar.style.width = bar.dataset.progress;
+    }
+  });
+}, { threshold: 0.5 });
+
+skillBars.forEach(bar => {
+  skillObserver.observe(bar);
+});
