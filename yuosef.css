@@ -18,7 +18,7 @@ html, body{
 
 .hero{
   min-height: 100vh;
-  background: linear-gradient(135deg, #1b0033, #012d41);
+    background: linear-gradient(412deg, #1b0033, #012d41);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ header{
 .skills-section {
   padding: 100px 10%;
   color: white;
-      background: linear-gradient(511deg, #1b0033, #012d41);
+          background: linear-gradient(392deg, #1b0033, #012d41);
 
 }
 
@@ -97,7 +97,7 @@ header{
 
 .t7t{
   
-    background: linear-gradient(35deg, #1b0033, #012d41);
+    background: linear-gradient(128deg, #1b0033, #012d41);
 
   width: 100%;
   min-height: 100vh;
@@ -926,7 +926,7 @@ button{
 
  .projects {
   padding: 100px 10%;
-      background: linear-gradient(135deg, #1b0033, #012d41);
+         background: linear-gradient(135deg, #1b0033, #012d41);
  min-height: 100vh;
 }
 
@@ -1347,6 +1347,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
