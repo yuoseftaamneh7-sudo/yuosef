@@ -379,13 +379,13 @@ transform: translateY(-3px);
 
 @keyframes aa{
   0%{
-    transform: translatey(150px);
-    opacity: 0.3;
+    transform: translatex(150px);
+   opacity: 0;
   }
   
 
   100%{
-    transform: translatey(-7px);
+    transform: translatex(0px);
     opacity: 0.9;
   }
 }
@@ -1310,6 +1310,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
