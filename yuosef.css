@@ -46,6 +46,10 @@ header{
    
 }
 
+.spns{
+    color: wheat;
+}
+
 
 
 .skills-section {
@@ -1305,6 +1309,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
