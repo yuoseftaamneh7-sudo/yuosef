@@ -25,11 +25,7 @@ html, body{
 
 position: relative;
   animation: hero-gradient-animation 15s ease infinite;
-   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8%;
-  gap: 40px;
+
 
 }
 
@@ -1309,6 +1305,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
