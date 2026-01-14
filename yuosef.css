@@ -370,7 +370,7 @@ transform: translateY(-3px);
   justify-content: space-between;
   padding: 0 8%;
   /* gap: 40px; */
-      line-height: 18px;
+      line-height: 25px;
 
 
 
@@ -1310,6 +1310,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
