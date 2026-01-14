@@ -25,7 +25,11 @@ html, body{
 
 position: relative;
   animation: hero-gradient-animation 15s ease infinite;
-
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  gap: 40px;
 
 }
 
@@ -79,6 +83,13 @@ header{
   background: linear-gradient(90deg, #00f5ff, #ff4ecd);
   border-radius: 10px;
   transition: width 1.5s ease;
+}
+
+.qq{
+       border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 46px;
 }
 
 
@@ -1292,6 +1303,7 @@ button{
     font-size: 14px;
   }
 }
+
 
 
 
