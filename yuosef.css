@@ -379,13 +379,13 @@ transform: translateY(-3px);
 
 @keyframes aa{
   0%{
-    transform: translatex(150px);
-   opacity: 0;
+    transform: translatey(150px);
+    opacity: 0;
   }
   
 
   100%{
-    transform: translatex(0px);
+    transform: translatey(-7px);
     opacity: 0.9;
   }
 }
