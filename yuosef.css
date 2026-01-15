@@ -16,6 +16,8 @@ html, body{
 
 
 
+
+
 .hero{
   min-height: 100vh;
     background: linear-gradient(412deg, #1b0033, #012d41);
@@ -24,7 +26,7 @@ html, body{
   background-repeat: no-repeat;
 
 position: relative;
-  animation: hero-gradient-animation 15s ease infinite;
+
 
 
 }
@@ -327,7 +329,7 @@ nav a:hover::after{
     display: inline-block;
     text-decoration: none;
     align-items: center;
-    transition: all 0.3s ease;
+    transition:transform 0.3s ease;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
 
@@ -350,7 +352,7 @@ nav a:hover::after{
     display: inline-block;
     text-decoration: none;
     align-items: center;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -558,10 +560,9 @@ button{
 
 
 .reveal {
-  opacity: 0;
+ opacity: 0;
   transform: translateY(40px);
-  filter: blur(8px);
-  transition: all 0.8s ease;
+  transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
 .reveal.activ {
@@ -673,7 +674,7 @@ button{
 
   nav {
     justify-content: center;
-    gap: 15px;
+    gap: 32px;
   }
 
   nav span {
@@ -782,7 +783,7 @@ button{
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 25px;
-  transition: 0.4s;
+  transition: transform 0.4s;
 }
 
 .project-card:hover {
@@ -942,7 +943,7 @@ button{
 .socials svg{
   width: 30px;
   height: 30px;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 
@@ -1179,6 +1180,12 @@ button{
 
 
 
+
+@media (max-width: 768px) {
+  * {
+    backdrop-filter: none !important;
+  }
+}
 
 
 
